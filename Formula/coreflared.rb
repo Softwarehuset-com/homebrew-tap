@@ -1,27 +1,27 @@
 class Coreflared < Formula
   desc "Zero-header tunnels to your services: coreflared + coreflaredctl"
   homepage "https://github.com/Softwarehuset-com/coreflared"
-  version "0.1.0-rc1"
+  version "0.1.0-rc2"
 
   on_macos do
     on_arm do
-      url "https://github.com/Softwarehuset-com/coreflared/releases/download/v0.1.0-rc1/coreflared_v0.1.0-rc1_darwin_arm64.tar.gz"
-      sha256 "e662f43046c903425bc15ec7b5a5420523e94d0f37521822411655275777434f"
+      url "https://github.com/Softwarehuset-com/coreflared/releases/download/v0.1.0-rc2/coreflared_v0.1.0-rc2_darwin_arm64.tar.gz"
+      sha256 "0ed4bec2cc6c57086a0ae4ddfa223e2d1529e11af9259be26188f4c0ad4067b9"
     end
     on_intel do
-      url "https://github.com/Softwarehuset-com/coreflared/releases/download/v0.1.0-rc1/coreflared_v0.1.0-rc1_darwin_amd64.tar.gz"
-      sha256 "f23dfe6dd0b2f9cd86a03cd406c38eeb595f5d4576d548a84d315a3a090b0f27"
+      url "https://github.com/Softwarehuset-com/coreflared/releases/download/v0.1.0-rc2/coreflared_v0.1.0-rc2_darwin_amd64.tar.gz"
+      sha256 "dc21a239ac1e3bfffdbd89f4f3fcf06103f69588f9adfba8663a22819dd59fe5"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Softwarehuset-com/coreflared/releases/download/v0.1.0-rc1/coreflared_v0.1.0-rc1_linux_arm64.tar.gz"
-      sha256 "84f18f10bfbae85554e1b4a806d32965c6ee82b8d499603341195bbc378ca0df"
+      url "https://github.com/Softwarehuset-com/coreflared/releases/download/v0.1.0-rc2/coreflared_v0.1.0-rc2_linux_arm64.tar.gz"
+      sha256 "c92b16ce034989fc2bd57983ab78029cad3952853e85378ca6258d9c3053327b"
     end
     on_intel do
-      url "https://github.com/Softwarehuset-com/coreflared/releases/download/v0.1.0-rc1/coreflared_v0.1.0-rc1_linux_amd64.tar.gz"
-      sha256 "50aee0e3760f44f5e684fb8f01b98f3c521f29161c1e15ffff6dc7f8bd3f029e"
+      url "https://github.com/Softwarehuset-com/coreflared/releases/download/v0.1.0-rc2/coreflared_v0.1.0-rc2_linux_amd64.tar.gz"
+      sha256 "42d2f18fdaca866e5c006a757e7e27fd97ff0831626dca57ac560297668e0ef9"
     end
   end
 
