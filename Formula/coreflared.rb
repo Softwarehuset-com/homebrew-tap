@@ -1,27 +1,27 @@
 class Coreflared < Formula
   desc "Zero-header tunnels to your services: coreflared + coreflaredctl"
   homepage "https://github.com/Softwarehuset-com/coreflared"
-  version "0.1.0-rc5"
+  version "0.1.0-rc6"
 
   on_macos do
     on_arm do
-      url "https://github.com/Softwarehuset-com/coreflared/releases/download/v0.1.0-rc5/coreflared_v0.1.0-rc5_darwin_arm64.tar.gz"
-      sha256 "44d1292e8856013e71aefc78519a18375c8718ed3b39ca60f41b6897c29f38da"
+      url "https://github.com/Softwarehuset-com/coreflared/releases/download/v0.1.0-rc6/coreflared_v0.1.0-rc6_darwin_arm64.tar.gz"
+      sha256 "feb2e73de70a86121387a03f8d61facf0458ae8f9ebc16f42eeb21673f5784ab"
     end
     on_intel do
-      url "https://github.com/Softwarehuset-com/coreflared/releases/download/v0.1.0-rc5/coreflared_v0.1.0-rc5_darwin_amd64.tar.gz"
-      sha256 "f74358af806f1007bd98d9cb4329c24926a5af8c198953a24c1c31174e19335b"
+      url "https://github.com/Softwarehuset-com/coreflared/releases/download/v0.1.0-rc6/coreflared_v0.1.0-rc6_darwin_amd64.tar.gz"
+      sha256 "f6f2810aad396fccc38584adcb4a510b32eca9c85a64ddf7a4a0926fb95998ca"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Softwarehuset-com/coreflared/releases/download/v0.1.0-rc5/coreflared_v0.1.0-rc5_linux_arm64.tar.gz"
-      sha256 "3071ff62c9b5eadef3402d2ac509395bd0336c1e136eec294f60ef6d39ffb5d1"
+      url "https://github.com/Softwarehuset-com/coreflared/releases/download/v0.1.0-rc6/coreflared_v0.1.0-rc6_linux_arm64.tar.gz"
+      sha256 "2dc0f47d0324246b1662e57f0b6a88b995976f3894808dc5583e7267aa347641"
     end
     on_intel do
-      url "https://github.com/Softwarehuset-com/coreflared/releases/download/v0.1.0-rc5/coreflared_v0.1.0-rc5_linux_amd64.tar.gz"
-      sha256 "2091278c614c806708a9b2e1504c0554dbd6fe24c9f1b0d74c1579cc64f50b6d"
+      url "https://github.com/Softwarehuset-com/coreflared/releases/download/v0.1.0-rc6/coreflared_v0.1.0-rc6_linux_amd64.tar.gz"
+      sha256 "7a2f2ffc1503f2f1cda767c7d7808cd2e9142e11dd1db58ef57e6dab6e06316e"
     end
   end
 
