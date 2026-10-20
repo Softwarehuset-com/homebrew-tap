@@ -1,27 +1,27 @@
 class Coreflared < Formula
   desc "Zero-header tunnels to your services: coreflared + coreflaredctl"
   homepage "https://github.com/Softwarehuset-com/coreflared"
-  version "0.1.0-rc4"
+  version "0.1.0-rc5"
 
   on_macos do
     on_arm do
-      url "https://github.com/Softwarehuset-com/coreflared/releases/download/v0.1.0-rc4/coreflared_v0.1.0-rc4_darwin_arm64.tar.gz"
-      sha256 "6d237d42bd0d6da59f7d9fa5ec311d70e0214dd1da08f70177106238eb6d6bce"
+      url "https://github.com/Softwarehuset-com/coreflared/releases/download/v0.1.0-rc5/coreflared_v0.1.0-rc5_darwin_arm64.tar.gz"
+      sha256 "44d1292e8856013e71aefc78519a18375c8718ed3b39ca60f41b6897c29f38da"
     end
     on_intel do
-      url "https://github.com/Softwarehuset-com/coreflared/releases/download/v0.1.0-rc4/coreflared_v0.1.0-rc4_darwin_amd64.tar.gz"
-      sha256 "8207c4fe841f5346d3ee96e296330790cd34c7326ff44ef55b3838bd61df0bf3"
+      url "https://github.com/Softwarehuset-com/coreflared/releases/download/v0.1.0-rc5/coreflared_v0.1.0-rc5_darwin_amd64.tar.gz"
+      sha256 "f74358af806f1007bd98d9cb4329c24926a5af8c198953a24c1c31174e19335b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Softwarehuset-com/coreflared/releases/download/v0.1.0-rc4/coreflared_v0.1.0-rc4_linux_arm64.tar.gz"
-      sha256 "edf3cbe178b940ebefa127f5e854cd4d4641b4066ae66f0e5c9cb49164b3fa21"
+      url "https://github.com/Softwarehuset-com/coreflared/releases/download/v0.1.0-rc5/coreflared_v0.1.0-rc5_linux_arm64.tar.gz"
+      sha256 "3071ff62c9b5eadef3402d2ac509395bd0336c1e136eec294f60ef6d39ffb5d1"
     end
     on_intel do
-      url "https://github.com/Softwarehuset-com/coreflared/releases/download/v0.1.0-rc4/coreflared_v0.1.0-rc4_linux_amd64.tar.gz"
-      sha256 "581dc1fa224508805f47969995448fab885f156ec8b4ae75ecc463a2f10670cf"
+      url "https://github.com/Softwarehuset-com/coreflared/releases/download/v0.1.0-rc5/coreflared_v0.1.0-rc5_linux_amd64.tar.gz"
+      sha256 "2091278c614c806708a9b2e1504c0554dbd6fe24c9f1b0d74c1579cc64f50b6d"
     end
   end
 
