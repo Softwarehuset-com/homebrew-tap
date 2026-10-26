@@ -1,27 +1,27 @@
 class Coreflared < Formula
   desc "Zero-header tunnels to your services: coreflared + coreflaredctl"
   homepage "https://github.com/Softwarehuset-com/coreflared"
-  version "0.1.0-rc7"
+  version "0.1.0-rc8"
 
   on_macos do
     on_arm do
-      url "https://github.com/Softwarehuset-com/coreflared/releases/download/v0.1.0-rc7/coreflared_v0.1.0-rc7_darwin_arm64.tar.gz"
-      sha256 "60235e36469151eac705fc4fa8933b09d5f46d13c57a1e2cc01f10abebf482f8"
+      url "https://github.com/Softwarehuset-com/coreflared/releases/download/v0.1.0-rc8/coreflared_v0.1.0-rc8_darwin_arm64.tar.gz"
+      sha256 "01ae861f7db869082fbe62c354389c8fb5a6bc4f99d990bf85cfc637e5c96545"
     end
     on_intel do
-      url "https://github.com/Softwarehuset-com/coreflared/releases/download/v0.1.0-rc7/coreflared_v0.1.0-rc7_darwin_amd64.tar.gz"
-      sha256 "db49c8f3d7ef244b3f31fd10c7e8285d58d1180884c608ab895795c595a419b7"
+      url "https://github.com/Softwarehuset-com/coreflared/releases/download/v0.1.0-rc8/coreflared_v0.1.0-rc8_darwin_amd64.tar.gz"
+      sha256 "53df24d99c0f4e89dae08c50327fe2d01b0f5bd81815e67aa2cfd62b2b6151b2"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Softwarehuset-com/coreflared/releases/download/v0.1.0-rc7/coreflared_v0.1.0-rc7_linux_arm64.tar.gz"
-      sha256 "51aa09ea1fde634b939eeb8145ad65ce1f0cef54d4d21203223d8b67bb991a1b"
+      url "https://github.com/Softwarehuset-com/coreflared/releases/download/v0.1.0-rc8/coreflared_v0.1.0-rc8_linux_arm64.tar.gz"
+      sha256 "ae91d6a154934308dd2f9c306a7fb5d9ffccfaefa0a006e02434949095737e9b"
     end
     on_intel do
-      url "https://github.com/Softwarehuset-com/coreflared/releases/download/v0.1.0-rc7/coreflared_v0.1.0-rc7_linux_amd64.tar.gz"
-      sha256 "9c68fa4eba65152671b5fc53cf471aff598f8c4177807b45ef59563278908775"
+      url "https://github.com/Softwarehuset-com/coreflared/releases/download/v0.1.0-rc8/coreflared_v0.1.0-rc8_linux_amd64.tar.gz"
+      sha256 "a54cfefad97bb066df03ccb79ed96911ef477479e216032a35ca90ec0d07c770"
     end
   end
 
